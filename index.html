@@ -4,352 +4,244 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="assets/favicon.png" type="image/x-icon">
-    <link rel="stylesheet" href="css/swiper-bundle.min.css">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
-    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7680844097376847"
-     crossorigin="anonymous"></script>
     <title>Welcome to Devmaster</title>
 </head>
 <body>
-    <nav>
-        <ul>
-            <span id="title">DevMaster</span>
-            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="blue" class="bi bi-patch-check-fill" viewBox="0 0 16 16" style="margin-left: 10px;">
-              <path d="M10.067.87a2.89 2.89 0 0 0-4.134 0l-.622.638-.89-.011a2.89 2.89 0 0 0-2.924 2.924l.01.89-.636.622a2.89 2.89 0 0 0 0 4.134l.637.622-.011.89a2.89 2.89 0 0 0 2.924 2.924l.89-.01.622.636a2.89 2.89 0 0 0 4.134 0l.622-.637.89.011a2.89 2.89 0 0 0 2.924-2.924l-.01-.89.636-.622a2.89 2.89 0 0 0 0-4.134l-.637-.622.011-.89a2.89 2.89 0 0 0-2.924-2.924l-.89.01zm.287 5.984-3 3a.5.5 0 0 1-.708 0l-1.5-1.5a.5.5 0 1 1 .708-.708L7 8.793l2.646-2.647a.5.5 0 0 1 .708.708"/>
-            </svg>
-        </ul>
-        <ul class="left">
-            <li>
-                <a href="#home">Home</a>
-            </li>
-            <li>
-                <a href="#about-us">About us</a>
-            </li>
-            <li>
-                <a href="#project">Projects</a>
-            </li>
-            <li>
-                <a href="#services">Services</a>
-            </li>
-            <li>
-                <button onclick="window.location.href='https://wa.me/237696836011'">Let's Chat</button>
-            </li>
-        </ul>
-        <ul class="side-element">
-          <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="blue" class="bi bi-border-width" viewBox="0 0 16 16" id="side-button">
-            <path d="M0 3.5A.5.5 0 0 1 .5 3h15a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-.5.5H.5a.5.5 0 0 1-.5-.5zm0 5A.5.5 0 0 1 .5 8h15a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5H.5a.5.5 0 0 1-.5-.5zm0 4a.5.5 0 0 1 .5-.5h15a.5.5 0 0 1 0 1H.5a.5.5 0 0 1-.5-.5"/>
-          </svg>
-        </ul>
-    </nav>
-    <div class="side-menu" id="side-menu">
-      <ul>
-        <li onclick="document.getElementById('side-menu').style.width='0px'">
-          <a href="#home">Home</a>
-        </li>
-        <li onclick="document.getElementById('side-menu').style.width='0px'">
-            <a href="#about-us">About us</a>
-        </li >
-        <li onclick="document.getElementById('side-menu').style.width='0px'">
-            <a href="#project">Projects</a>
-        </li>
-        <li onclick="document.getElementById('side-menu').style.width='0px'">
-            <a href="#services">Services</a>
-        </li>
-        <li onclick="document.getElementById('side-menu').style.width='0px'">
-            <button onclick="window.location.href='https://wa.me/237696836011'">Let's Chat</button>
-        </li>
-      </ul>
-    </div>
-    <p style="padding-top: 110px;"></p>
-    <div class="container">
-        <div class="container-fluid" id="home">
+  <div class="container-fluid">
+    <section class="head-bar">
+      <div class="logo">
+        <img src="assets/favicon.png" alt="logo" srcset="" width="50px" height="50px">
+        <p>Devmaster</p>
+      </div>
+      <div class="book-a-call">
+        <button class="btn  btn-black">Book a call</button>
+      </div>
+    </section>
+    <section class="presentation">
+      <div class="row">
+        <div class="col-sm-6">
+          <div class="left box hidden">
+            <div class="indicator">
+              <div class="point"></div>
+              <span style="margin-left: 10px;font-size: 14px;color:rgba(47,158,177,255);">AVAILABLE FOR WORK</span>
+            </div>
+            <h1>Hi, we'are a</h1>
+            <h1>web developer</h1>
+            <h1>team </h1> 
+            <p>we have 10 years of exepeience working on useful and mindful products together with startups and known brands</p>
+            <button class="btn  btn-black">Contact Us</button>
+          </div>
+        </div>
+        <div class="col-sm-6">
+          <div class="right box hidden">
             <div class="row">
-                <div class="col-xl-4">
-                    <div class="bloob">
-                      <div id="logo"></div>
-                    </div>
+              <div class="col-sm-6">
+                <div class="img"></div>
+              </div>
+              <div class="col-sm-6">
+                <div class="img"></div>
+              </div>
+              <div class="col-xl-6">
+                <div class="recent-brands">
+                  <p>The most recent brands</p>
+                  <p>i happily worled with &lt; 3</p>
                 </div>
-                <div class="col-xl-8">
-                    <h1>Hi, Welcome  to</h1>
-                    <div style="display: flex;align-items: center;">
-                        <h1>DevMaster</h1>
-                        <span>web developer</span>
-                    </div>
-                    <p style="padding: 5px 0px;"></p>
-                    <div class="carousel">
-                        <div class="image" id="image"></div>
-                    </div>
-                </div>
+              </div>
+              <div class="col-xl-6">
+                <div class="social"></div>
+              </div>
             </div>
+          </div>
         </div>
-        <div id="about-us">
-            <div class="row">
-                <div class="col-xl-6">
-                    <p>About Us</p>
-                    <h1 style="font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-se">We transform ideas into innovative web solutions</h1>
-                    <p>At Devmaster, we are a passionate team of web developers and cybersecurity consultants dedicated to creating innovative, secure and high-performance digital solutions. Founded by experts in programming and IT security, our mission is to support companies and entrepreneurs in their digital transformation by developing tailor-made websites and applications, adapted to their specific needs.</p>
-                </div>
-                <div class="col-xl-6">
-                    <div class="image"></div>
-                </div>
-                <div class="col-xl-6">
-                    <div class="image2"></div>
-                </div>
-                <div class="col-xl-6">
-                    <p>We combine technical expertise and creativity to design modern, ergonomic and optimized platforms, guaranteeing a smooth user experience and enhanced security. Whether for a startup, an SME or a large group, we offer solutions adapted to each project, taking into account the latest technological trends and best practices in cybersecurity.</p>
-                </div>
-            </div>
+      </div>
+      <div class="goal box hidden">
+        <h2>My mission is to assist startups and entreprises in creating an emotional bond between their products and satisfied, engaged customers.</h2>
+      </div>
+    </section>
+    <section class="git">
+       <div class="row">
+        <div class="col-xl-3 box hidden">
+          <h2>How Can we</h2>
+          <h2>Assist You?</h2>
         </div>
-        <div id="project">
-            <h1 style="font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-se;color: blue;">Our Achievements</h1>
-            <p>Discover some of our past projects, where innovation, technical expertise and passion meet. Each project is an opportunity for us to push the boundaries and deliver solutions that precisely meet the needs of our clients. From design to completion, we do everything we can to transform your ideas into reality.</p>
-            <!-- Slider main container -->
-            <div class="swiper">
-                <!-- Additional required wrapper -->
-                <div class="swiper-wrapper">
-                <!-- Slides -->
-                <div class="swiper-slide slide1"></div>
-                <div class="swiper-slide slide2"></div>
-                <div class="swiper-slide slide3"></div>
-                <div class="swiper-slide slide1"></div>
-                <div class="swiper-slide slide2"></div>
-                <div class="swiper-slide slide3"></div>
-                ...
+        <div class="col-xl-9">
+          <div class="row">
+            <div class="col-sm-6 box hidden">
+              <div class="item">
+                <div class="up">
+                  <div class="field">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" class="me-2" viewBox="0 0 288 432" role="img">
+                      <rect width="95.0226" height="142.534" fill="black" fill-opacity="0" transform="translate(1.46603 2.19946) scale(3)"></rect>
+                      <path d="M144 216C144 176.641 175.907 144.733 215.267 144.733V144.733C254.626 144.733 286.534 176.641 286.534 216V216C286.534 255.36 254.626 287.267 215.267 287.267V287.267C175.907 287.267 144 255.36 144 216V216Z" fill="#1ABCFE"></path>
+                      <path d="M1.46603 358.534C1.46603 319.175 33.3733 287.267 72.733 287.267H144V358.534C144 397.894 112.093 429.801 72.733 429.801V429.801C33.3733 429.801 1.46603 397.894 1.46603 358.534V358.534Z" fill="#0ACF83"></path>
+                      <path d="M144 2.19946V144.733H215.267C254.627 144.733 286.534 112.826 286.534 73.4664V73.4664C286.534 34.1068 254.627 2.19946 215.267 2.19946L144 2.19946Z" fill="#FF7262"></path>
+                      <path d="M1.46603 73.4664C1.46603 112.826 33.3733 144.733 72.733 144.733L144 144.733L144 2.19941L72.733 2.19941C33.3733 2.19941 1.46603 34.1067 1.46603 73.4664V73.4664Z" fill="#F24E1E"></path>
+                      <path d="M1.46603 216C1.46603 255.36 33.3733 287.267 72.733 287.267H144L144 144.733L72.733 144.733C33.3733 144.733 1.46603 176.641 1.46603 216V216Z" fill="#A259FF"></path>
+                    </svg>
+                  </div>
+                  <span style="margin-left: 10px;">we create intuitive, visually appealing interface that enchance user experience and navigation, ensuring your app is both beautiful and functional accros all devices.</span>
                 </div>
-                <!-- If we need pagination -->
-                <div class="swiper-pagination"></div>
-            
-                <!-- If we need navigation buttons -->
-                <div class="swiper-button-prev"></div>
-                <div class="swiper-button-next"></div>
-            
-                <!-- If we need scrollbar -->
-                <div class="swiper-scrollbar"></div>
+                <div class="down">
+                  <h3>UI Design</h3>
+                  <h3 style="color:rgba(0,0,0,0.2)">01</h3>
+                </div>
+              </div>
             </div>
+            <div class="col-sm-6 box hidden">
+              <div class="item">
+                <div class="up">
+                  <div class="field">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="rgba(47,158,177,255)" class="bi bi-code-slash" viewBox="0 0 16 16">
+                      <path d="M10.478 1.647a.5.5 0 1 0-.956-.294l-4 13a.5.5 0 0 0 .956.294zM4.854 4.146a.5.5 0 0 1 0 .708L1.707 8l3.147 3.146a.5.5 0 0 1-.708.708l-3.5-3.5a.5.5 0 0 1 0-.708l3.5-3.5a.5.5 0 0 1 .708 0m6.292 0a.5.5 0 0 0 0 .708L14.293 8l-3.147 3.146a.5.5 0 0 0 .708.708l3.5-3.5a.5.5 0 0 0 0-.708l-3.5-3.5a.5.5 0 0 0-.708 0"/>
+                    </svg>
+                  </div>
+                  <span style="margin-left: 10px;">Our team builds reliable, scalable solutions, delivering clean code that powers websites and mobile apps with top-notch performance and security.</span>
+                </div>
+                <div class="down">
+                  <h3>Development</h3>
+                  <h3 style="color:rgba(0,0,0,0.2)">02</h3>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-6 box hidden">
+              <div class="item">
+                <div class="up">
+                  <div class="field">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="rgba(47,158,177,255)" class="bi bi-vector-pen" viewBox="0 0 16 16">
+                      <path fill-rule="evenodd" d="M10.646.646a.5.5 0 0 1 .708 0l4 4a.5.5 0 0 1 0 .708l-1.902 1.902-.829 3.313a1.5 1.5 0 0 1-1.024 1.073L1.254 14.746 4.358 4.4A1.5 1.5 0 0 1 5.43 3.377l3.313-.828zm-1.8 2.908-3.173.793a.5.5 0 0 0-.358.342l-2.57 8.565 8.567-2.57a.5.5 0 0 0 .34-.357l.794-3.174-3.6-3.6z"/>
+                      <path fill-rule="evenodd" d="M2.832 13.228 8 9a1 1 0 1 0-1-1l-4.228 5.168-.026.086z"/>
+                    </svg>
+                  </div>
+                  <span style="margin-left: 10px;">we design responsive, user-friendly websites that blend aesthetics with functionality, providing a seamless experience across and refecting your brand's identity.</span>
+                </div>
+                <div class="down">
+                  <h3>Graphic Design</h3>
+                  <h3 style="color:rgba(0,0,0,0.2)">03</h3>
+                </div>
+              </div>
+            </div> 
+            <div class="col-sm-6 box hidden">
+              <div class="item">
+                <div class="up">
+                  <div class="field">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="rgba(47,158,177,255)" class="bi bi-fonts" viewBox="0 0 16 16">
+                      <path d="M12.258 3h-8.51l-.083 2.46h.479c.26-1.544.758-1.783 2.693-1.845l.424-.013v7.827c0 .663-.144.82-1.3.923v.52h4.082v-.52c-1.162-.103-1.306-.26-1.306-.923V3.602l.431.013c1.934.062 2.434.301 2.693 1.846h.479z"/>
+                    </svg>
+                  </div>
+                  <span style="margin-left: 10px;">we craft memorable brand identities, from logos to complete strategies, ensuring consistency and a strong connection with your audience across all platforms.</span>
+                </div>
+                <div class="down">
+                  <h3>Branding</h3>
+                  <h3 style="color:rgba(0,0,0,0.2)">04</h3>
+                </div>
+              </div>
+            </div> 
+          </div>
         </div>
-        <div id="services">
-            <p style="padding-top: 20px;">All our services</p>
-            <div class="more">
-                <div class="row">
-                    <div class="col-sm-6" id="web-design">
-                        <div class="desc">
-                            <h1 style="font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-se;color: blue;">Custom Web Design</h1>
-                            <p>At DevMaster, we create unique and intuitive digital experiences. Our team of talented designers work closely with you to design modern, aesthetically pleasing websites tailored to the specific needs of your business. From the creation of models to responsive integration, we support you in creating a site that reflects the image of your brand and maximizes the engagement of your users.</p>
-                        </div>
-                    </div>
-                    <div class="col-sm-6">
-                      <div class="illustration"></div>
-                    </div>
-                    <div class="col-sm-6" id="development">
-                      <div class="illustration2"></div>
-                    </div>
-                    <div class="col-sm-6">
-                        <div class="desc">
-                            <h1 style="font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-se;color:blue">Custom Web Development and Applications</h1>
-                            <p>At DevMaster, we combine technical expertise and creativity to build robust and scalable web solutions. Whether with HTML, CSS, JavaScript, PHP, Laravel, React or Python, our team of developers supports you at every stage of the realization of your project, from back-end to front-end. We ensure smooth integration, optimal performance and enhanced security so that your site or application meets your expectations and fully takes off.</p>
-                        </div>
-                    </div>
-                    <div class="col-sm-6" id="hosting">
-                        <div class="desc">
-                            <h1 style="font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-se;color:blue">Tailor-made Hosting Solutions</h1>
-                            <p>At DevMaster, we offer you efficient and scalable hosting solutions, adapted to your specific needs. Thanks to our state-of-the-art infrastructure and dedicated support, we guarantee maximum availability and optimal security for your applications and websites. Whether you are a small business or a large organization, our hosting services are designed to give you a smooth and reliable experience without compromise.</p>
-                        </div>
-                    </div>
-                    <div class="col-sm-6">
-                      <div class="illustration3"></div>
-                    </div>
-                </div>
-            </div>
-            <h1 style="font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-se">Nos services les plus vendus</h1>
-            <div class="row">
-
-
-                <div class="col-12 col-sm-6 col-xl-4">
-                    <div class="x22">
-                      <div style="text-align:center">
-                          <h2 style="color:#5869EE">Basic</h2>
-                      </div>
-                      <br>
-                      <div style="text-align:center">
-                        <p style="font-size:20px;">20$</p>
-                      </div>
-                      <br>
-                      <div>
-                        <p>we integrate visuals to create with figma or photoshop in html/css or React.</p>
-                        <p>Advantages</p>
-                      </div>
-                      <div style="display:flex">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#5869EE" class="bi bi-check-lg" viewBox="0 0 16 16" style="margin-top:5px">
-                          <path d="M12.736 3.97a.733.733 0 0 1 1.047 0c.286.289.29.756.01 1.05L7.88 12.01a.733.733 0 0 1-1.065.02L3.217 8.384a.757.757 0 0 1 0-1.06.733.733 0 0 1 1.047 0l3.052 3.093 5.4-6.425z"/>
-                        </svg>
-                        <p style="padding-left:10px">clean and maintainable code</p>
-                      </div>
-                      <div style="display:flex">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#5869EE" class="bi bi-check-lg" viewBox="0 0 16 16" style="margin-top:5px">
-                          <path d="M12.736 3.97a.733.733 0 0 1 1.047 0c.286.289.29.756.01 1.05L7.88 12.01a.733.733 0 0 1-1.065.02L3.217 8.384a.757.757 0 0 1 0-1.06.733.733 0 0 1 1.047 0l3.052 3.093 5.4-6.425z"/>
-                        </svg>
-                        <p style="padding-left:10px">animation integration</p>
-                      </div>
-                      <div style="display:flex">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#5869EE" class="bi bi-check-lg" viewBox="0 0 16 16" style="margin-top:5px">
-                          <path d="M12.736 3.97a.733.733 0 0 1 1.047 0c.286.289.29.756.01 1.05L7.88 12.01a.733.733 0 0 1-1.065.02L3.217 8.384a.757.757 0 0 1 0-1.06.733.733 0 0 1 1.047 0l3.052 3.093 5.4-6.425z"/>
-                        </svg>
-                        <p style="padding-left:10px">three changes accept</p>
-                      </div>
-                      <div style="display:flex">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#5869EE" class="bi bi-check-lg" viewBox="0 0 16 16" style="margin-top:5px">
-                          <path d="M12.736 3.97a.733.733 0 0 1 1.047 0c.286.289.29.756.01 1.05L7.88 12.01a.733.733 0 0 1-1.065.02L3.217 8.384a.757.757 0 0 1 0-1.06.733.733 0 0 1 1.047 0l3.052 3.093 5.4-6.425z"/>
-                        </svg>
-                        <p style="padding-left:10px">code availability on github</p>
-                      </div>
-                      <button class="x23">Subscrite Now</button>
-                    </div>
-                    <br>
-                </div>
-                <div class="col-12 col-sm-6 col-xl-4">
-                    <div class="x22">
-                        <div style="text-align:center">
-                            <h2 style="color:#5869EE">Standard</h2>
-                        </div>
-                        <br>
-                        <div style="text-align:center">
-                          <p style="font-size:20px;">150$</p>
-                        </div>
-                        <div class="x24">Recommanded
-                          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="white" class="bi bi-star-fill" viewBox="0 0 16 16" style="margin-left:10px">
-                            <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
-                          </svg>
-                        </div>
-                        <br>
-                        <div>
-                          <p>get a landing page to boost your online business</p>
-                          <p>Advantages</p>
-                        </div>
-                        <div style="display:flex">
-                          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#5869EE" class="bi bi-check-lg" viewBox="0 0 16 16" style="margin-top:5px">
-                            <path d="M12.736 3.97a.733.733 0 0 1 1.047 0c.286.289.29.756.01 1.05L7.88 12.01a.733.733 0 0 1-1.065.02L3.217 8.384a.757.757 0 0 1 0-1.06.733.733 0 0 1 1.047 0l3.052 3.093 5.4-6.425z"/>
-                          </svg>
-                          <p style="padding-left:10px">Customized design adapted to your needs</p>
-                        </div>
-                        <div style="display:flex">
-                          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#5869EE" class="bi bi-check-lg" viewBox="0 0 16 16" style="margin-top:5px">
-                            <path d="M12.736 3.97a.733.733 0 0 1 1.047 0c.286.289.29.756.01 1.05L7.88 12.01a.733.733 0 0 1-1.065.02L3.217 8.384a.757.757 0 0 1 0-1.06.733.733 0 0 1 1.047 0l3.052 3.093 5.4-6.425z"/>
-                          </svg>
-                          <p style="padding-left:10px">Modern and efficient design</p>
-                        </div>
-                        <div style="display:flex">
-                          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#5869EE" class="bi bi-check-lg" viewBox="0 0 16 16" style="margin-top:5px">
-                            <path d="M12.736 3.97a.733.733 0 0 1 1.047 0c.286.289.29.756.01 1.05L7.88 12.01a.733.733 0 0 1-1.065.02L3.217 8.384a.757.757 0 0 1 0-1.06.733.733 0 0 1 1.047 0l3.052 3.093 5.4-6.425z"/>
-                          </svg>
-                          <p style="padding-left:10px">Optimizing for conversions</p>
-                        </div>
-                        <div style="display:flex">
-                          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#5869EE" class="bi bi-check-lg" viewBox="0 0 16 16" style="margin-top:5px">
-                            <path d="M12.736 3.97a.733.733 0 0 1 1.047 0c.286.289.29.756.01 1.05L7.88 12.01a.733.733 0 0 1-1.065.02L3.217 8.384a.757.757 0 0 1 0-1.06.733.733 0 0 1 1.047 0l3.052 3.093 5.4-6.425z"/>
-                          </svg>
-                          <p style="padding-left:10px">Expert support and support</p>
-                        </div>
-                        <div style="display:flex">
-                          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#5869EE" class="bi bi-check-lg" viewBox="0 0 16 16" style="margin-top:5px">
-                            <path d="M12.736 3.97a.733.733 0 0 1 1.047 0c.286.289.29.756.01 1.05L7.88 12.01a.733.733 0 0 1-1.065.02L3.217 8.384a.757.757 0 0 1 0-1.06.733.733 0 0 1 1.047 0l3.052 3.093 5.4-6.425z"/>
-                          </svg>
-                          <p style="padding-left:10px">hosting and domain name offered for 1 year</p>
-                        </div>
-                        <button class="x23">Subscrite Now</button>
-                    </div>
-                    <br>
-                </div>
-                <div class="col-12 col-sm-6 col-xl-4">
-                    <div class="x22">
-                          <div style="text-align:center">
-                              <h2 style="color:#5869EE">Pro</h2>
-                          </div>
-                          <br>
-                          <div style="text-align:center">
-                            <p style="font-size:20px;">250$</p>
-                          </div>
-                          <br>
-                          <div>
-                            <p>get your personalized e-commerce website with integrated analytics</p>
-                            <p>Advantages</p>
-                          </div>
-                          <div style="display:flex">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#5869EE" class="bi bi-check-lg" viewBox="0 0 16 16" style="margin-top:5px">
-                              <path d="M12.736 3.97a.733.733 0 0 1 1.047 0c.286.289.29.756.01 1.05L7.88 12.01a.733.733 0 0 1-1.065.02L3.217 8.384a.757.757 0 0 1 0-1.06.733.733 0 0 1 1.047 0l3.052 3.093 5.4-6.425z"/>
-                            </svg>
-                            <p style="padding-left:10px">Customized design adapted to your needs</p>
-                          </div>
-                          <div style="display:flex">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#5869EE" class="bi bi-check-lg" viewBox="0 0 16 16" style="margin-top:5px">
-                              <path d="M12.736 3.97a.733.733 0 0 1 1.047 0c.286.289.29.756.01 1.05L7.88 12.01a.733.733 0 0 1-1.065.02L3.217 8.384a.757.757 0 0 1 0-1.06.733.733 0 0 1 1.047 0l3.052 3.093 5.4-6.425z"/>
-                            </svg>
-                            <p style="padding-left:10px">Modern and efficient design</p>
-                          </div>
-                          <div style="display:flex">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#5869EE" class="bi bi-check-lg" viewBox="0 0 16 16" style="margin-top:5px">
-                              <path d="M12.736 3.97a.733.733 0 0 1 1.047 0c.286.289.29.756.01 1.05L7.88 12.01a.733.733 0 0 1-1.065.02L3.217 8.384a.757.757 0 0 1 0-1.06.733.733 0 0 1 1.047 0l3.052 3.093 5.4-6.425z"/>
-                            </svg>
-                            <p style="padding-left:10px">Optimizing for conversions</p>
-                          </div>
-                          <div style="display:flex">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#5869EE" class="bi bi-check-lg" viewBox="0 0 16 16" style="margin-top:5px">
-                              <path d="M12.736 3.97a.733.733 0 0 1 1.047 0c.286.289.29.756.01 1.05L7.88 12.01a.733.733 0 0 1-1.065.02L3.217 8.384a.757.757 0 0 1 0-1.06.733.733 0 0 1 1.047 0l3.052 3.093 5.4-6.425z"/>
-                            </svg>
-                            <p style="padding-left:10px">Expert support and support</p>
-                          </div>
-                          <div style="display:flex">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#5869EE" class="bi bi-check-lg" viewBox="0 0 16 16" style="margin-top:5px">
-                              <path d="M12.736 3.97a.733.733 0 0 1 1.047 0c.286.289.29.756.01 1.05L7.88 12.01a.733.733 0 0 1-1.065.02L3.217 8.384a.757.757 0 0 1 0-1.06.733.733 0 0 1 1.047 0l3.052 3.093 5.4-6.425z"/>
-                            </svg>
-                            <p style="padding-left:10px">hosting and domain name offered for 1 year</p>
-                          </div>
-                          <div style="display:flex">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#5869EE" class="bi bi-check-lg" viewBox="0 0 16 16" style="margin-top:5px">
-                              <path d="M12.736 3.97a.733.733 0 0 1 1.047 0c.286.289.29.756.01 1.05L7.88 12.01a.733.733 0 0 1-1.065.02L3.217 8.384a.757.757 0 0 1 0-1.06.733.733 0 0 1 1.047 0l3.052 3.093 5.4-6.425z"/>
-                            </svg>
-                            <p style="padding-left:10px">implementation of a dashboard</p>
-                          </div>
-                          <button class="x23">Subscrite Now</button>
-                        </div>
-                </div>
-            </div>
-            <p>if you want to do a specify request <a href="https://wa.me/237696836011">click here!!</a></p>
+       </div>
+    </section>
+    <section class="previous-works">
+      <div class="row">
+        <div class="col-xl-3 box hidden">
+          <h2>Selected</h2>
+          <h2>Work</h2>
+          <button class="btn btn-black">See All</button>
         </div>
-    </div>
-    <div class="footer-dark">
-        <footer>
-            <div class="container">
-                <div class="row">
-                    <div class="col-sm-6 col-md-3 item">
-                        <h3>Services</h3>
-                        <ul>
-                            <li><a href="#web-design">Web design</a></li>
-                            <li><a href="#development">Development</a></li>
-                            <li><a href="#hosting">Hosting</a></li>
-                        </ul>
-                    </div>
-                    <div class="col-sm-6 col-md-3 item">
-                        <h3>About</h3>
-                        <ul>
-                            <li><a href="#">Company</a></li>
-                            <li><a href="#">Team</a></li>
-                            <li><a href="#">Careers</a></li>
-                        </ul>
-                    </div>
-                    <div class="col-md-6 item text">
-                        <h3>DevMaster</h3>
-                        <p>Praesent sed lobortis mi. Suspendisse vel placerat ligula. Vivamus ac sem lacus. Ut vehicula rhoncus elementum. Etiam quis tristique lectus. Aliquam in arcu eget velit pulvinar dictum vel in justo.</p>
-                    </div>
-                    <div class="col item social"><a href="https://web.facebook.com/profile.php?id=61563592315929"><i class="icon ion-social-facebook"></i></a><a href="#"><i class="icon ion-social-twitter"></i></a><a href="#"><i class="icon ion-social-snapchat"></i></a><a href="#"><i class="icon ion-social-instagram"></i></a></div>
+        <div class="col-xl-9">
+          <div class="row">
+            <div class="col-xl-12 box hidden">
+              <div class="field">
+                <div class="up">
+                  <img src="assets/app.png" alt="phone" srcset="" class="image">
                 </div>
-                <p class="copyright">DevMaster © 2024</p>
+                <div class="down">
+                  <div class="title">
+                    <span>E-COMMERCE AGENCY</span>
+                    <span>2025</span>
+                  </div>
+                  <div class="key">
+                    <div class="item">UI DESIGN</div>
+                    <div class="item">MOBILE DEV</div>
+                  </div>
+                </div>
+              </div>
             </div>
-        </footer>
-    </div>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.bundle.min.js"></script>
-    <script src="js/swiper-bundle.min.js"></script>
-    <script src="js/app.js"></script>
+            <div class="col-sm-6 box hidden">
+              <div class="field">
+                <div class="up">
+                  <img src="assets/1.webp" alt="phone" srcset="" class="image">
+                </div>
+                <div class="down">
+                  <div class="title">
+                    <span>E-COMMERCE AGENCY</span>
+                    <span>2024</span>
+                  </div>
+                  <div class="key">
+                    <div class="item">UI DESIGN</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-6 box hidden">
+              <div class="field">
+                <div class="up">
+                  <img src="assets/Landing-Page.png" alt="phone" srcset="" class="image">
+                </div>
+                <div class="down">
+                  <div class="title">
+                    <span>FOR PEOPLE</span>
+                    <span>2022</span>
+                  </div>
+                  <div class="key">
+                    <div class="item">UI DESIGN</div>
+                    <div class="item">WEBSITE DEV</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-6 box hidden">
+              <div class="field">
+                <div class="up">
+                  <img src="assets/web design.png" alt="phone" srcset="" class="image">
+                </div>
+                <div class="down">
+                  <div class="title">
+                    <span>REAL ESTATE AGENCY</span>
+                    <span>2022</span>
+                  </div>
+                  <div class="key">
+                    <div class="item">UI DESIGN</div>
+                    <div class="item">WEBSITE DEV</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-6 box hidden">
+              <div class="field">
+                <div class="up">
+                  <img src="assets/resto.jpg" alt="phone" srcset="" class="image">
+                </div>
+                <div class="down">
+                  <div class="title">
+                    <span>restaurant</span>
+                    <span>2025</span>
+                  </div>
+                  <div class="key">
+                    <div class="item">UI DESIGN</div>
+                    <div class="item">WEBSITE DEV</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="skills"></section>
+    <section class="contact-us"></section>
+  </div>
+  <script src="js/app.js"></script>
 </body>
 </html>
