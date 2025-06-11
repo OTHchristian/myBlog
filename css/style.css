@@ -37,7 +37,7 @@ body {
     border: 1px solid black;
 }
 
-.presentation, .git, .previous-works{
+.presentation, .git, .previous-works, .skills,.contact-us, .end{
     padding: 40px;
 }
 .presentation .left, .presentation .right{
@@ -99,7 +99,7 @@ body {
     color: white;
     border-radius: 20px;
     padding: 30px;
-    margin-top: 10vh;
+    margin-top: 20vh;
 }
 .git .item{
     width: 100%;
@@ -154,6 +154,77 @@ body {
     border-radius: 10px;
     margin-left: 10px;
 }
+.skills .item{
+    width: 100%;
+    height: 200px;
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+    margin-top: 20px;
+}
+.skills .other{
+    padding-top: 40px;
+}
+
+.contact-us .field{
+    border-radius: 20px;
+    background-color: rgba(255, 255, 255, 0.46);
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+}
+.contact-us .field .personal-info{
+    display: flex;
+    justify-content: space-between;
+}
+.contact-us .field .personal-info input{
+    width: 48%;
+    border-radius: 10px;
+    border: none;
+    padding: 10px;
+}
+.contact-us .field .personal-info input:focus{
+    outline: none;
+}
+
+.contact-us .field textarea{
+    width: 100%;
+    margin-top: 10px;
+    padding: 20px;
+    border-radius: 10px;
+    height: 200px;
+    border: none;
+}
+.contact-us .field textarea:focus{
+    outline: none;
+}
+.end{
+    width: 100%;
+    padding: 30px;
+    background-color: rgba(255, 255, 255, 0.46);
+    border-radius: 20px;
+}
+.end .field {
+    width: 100%;
+    background-color: white;
+    border-radius: 10px;
+    padding: 10px;
+    margin-bottom: 10px;
+    height: 300px;
+    display: flex;
+}
+.end .field .link{
+    transition: 0.5s;
+    margin-top: 20px;
+}
+.end .field .link:hover{
+    text-decoration: underline;
+    color: rgb(107, 107, 245);
+}
+.end .other{
+    background-color: #2F9EB1;
+}
+
 
 
 
@@ -161,7 +232,7 @@ body {
     .presentation .left h1{
         font-size: 50px;
     }
-    .presentation, .git, .previous-works{
+    .presentation, .git, .previous-works, .skills, .contact-us, .end{
         padding: 10px;
     }
     .presentation .right .img{
@@ -169,6 +240,13 @@ body {
     }
     .goal{
         margin-top: 0px;
+    }
+    .contact-us .field .personal-info{
+        display: contents;
+    }
+    .contact-us .field .personal-info input{
+        width: 100%;
+        margin-top: 10px;
     }
 }
 ::-webkit-scrollbar {
